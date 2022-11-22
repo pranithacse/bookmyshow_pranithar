@@ -1,0 +1,320 @@
+
+
+.nav {
+    background-color: rgb(63, 60, 60); 
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  #h {
+    text-align: left;
+  }
+
+
+
+ 
+
+  * {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+ 
+
+
+
+
+
+
+/*new*/
+
+
+
+.btn {
+    background-color: rgb(35, 31, 35);
+    margin: 2px;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-left: 65px;
+    margin-right: 85px;
+}
+
+
+
+span.b {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+    border: 1px solid blue;    
+    background-color: rgb(75, 75, 70); 
+    margin: 25px 55px;
+    margin-left: 65px;
+
+  }
+
+  .b{
+    margin-left: 65px;
+    margin: 15px 65px;
+  }
+
+
+
+
+  .trend {
+    text-align: center;
+  }
+ 
+
+
+  
+.btn2 {
+  background-color: rgb(35, 31, 35);
+  margin: 2px;
+  margin-top: 1px;
+  margin-bottom: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-left: 65px;
+  margin-right: 85px;
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.clearfix {
+  margin-left: 195px;
+}
+
+
+
+.btn3 {
+  background-color: rgb(35, 31, 35);
+  margin: 2px;
+  margin-top: 1px;
+  margin-bottom: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-left: 65px;
+  margin-right: 85px;
+}
+
+
+.iframe {
+  margin: 205px;
+  margin-top: 160px;
+}
+
+
+.iframe {
+  margin: 205px;
+  margin-top: 160px;
+}
+
+
+.trend {
+  text-align: center;
+}
+
+
+.b img {
+  margin: 15px 65px;
+}
+
+
+.talk {
+  text-align: center;
+}
+
+
+
+.btn4 {
+  background-color: rgb(35, 31, 35);
+  margin: 2px;
+  margin-top: 1px;
+  margin-bottom: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-left: 65px;
+  margin-right: 85px;
+}
+
+
+.carousel-item1 {
+  margin: 95px;
+}
+
+.carousel-item2 {
+  margin: 95px;
+}
+
+.carousel-item3 {
+  margin: 95px;
+}
+
+
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+
+.trend2 {
+  text-align: left;
+}
+
+
+
+.btn5 {
+  background-color: rgb(35, 31, 35);
+  margin: 2px;
+  margin-top: 1px;
+  margin-bottom: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-left: 65px;
+  margin-right: 85px;
+}
+
+
+
+#next {
+  width: 43px;
+  height: 44px;
+  background: url(img_navsprites.gif) -91px 0;
+}
+
+
+
+
